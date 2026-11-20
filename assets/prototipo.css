@@ -1,0 +1,25 @@
+/* Ajustes del prototipo estático sobre el sistema visual de DataLife */
+.perfiles{display:flex;flex-direction:column;gap:10px}
+.perfil{display:flex;align-items:center;gap:14px;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;
+  padding:14px 16px;border:1.5px solid var(--line2);border-radius:var(--r-md);background:var(--surface2);
+  transition:border-color 150ms ease,background-color 150ms ease,transform 160ms var(--ease-out)}
+.perfil:active{transform:scale(0.985)}
+.perfil:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+@media (hover:hover) and (pointer:fine){.perfil:hover{border-color:var(--navy);background:var(--navy-soft)}}
+.perfil .avatar{width:42px;height:42px;font-size:14px}
+.perfil .pinfo{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.perfil .pinfo b{font-size:15.5px}
+.perfil .prol{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;color:var(--ink2);font-weight:600}
+.perfil .pinfo small{font-size:13px;color:var(--muted);line-height:1.4}
+.perfil .parrow{color:var(--muted);flex:none}
+.linkbtn{display:inline;padding:0;border:0;background:none;font:inherit;font-weight:700;color:var(--link);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.fijo{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--line2);border-radius:12px;background:var(--bg2);font-weight:700;font-size:15px}
+.fijo .ic{color:var(--muted)}
+div.shcard{cursor:default}
+div.shcard:active{transform:none}
+@media (hover:hover) and (pointer:fine){div.shcard:hover{border-color:var(--line)}}
+.shalert{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700}
+.shalert.c{color:var(--crit)}
+.shalert.o{color:var(--ok)}
+.hint .ic{vertical-align:-3px}
+@media (max-width:640px){.fijo{width:100%}}
