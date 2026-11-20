@@ -193,7 +193,7 @@
       '<aside class="auth-side"><div class="brand"><span class="mark">' + ic('logo', 24) + '</span><span><h1>Data<span>Life</span></h1></span></div>' +
       '<div class="auth-hero"><span class="kicker"><i></i>Red de albergues · sismo del 10 de agosto</span>' +
       '<h2>Que nadie se quede <em>sin un lugar seguro.</em></h2>' +
-      '<p>Cupos, comida, agua y medicinas de cada albergue temporal de Cali, al día. Los voluntarios registran en el momento y los coordinadores ven toda la red para decidir a tiempo.</p></div>' +
+      '<p>Cupos, comida, agua y medicinas de cada albergue temporal de Cali, al día. Voluntarios y brigadistas registran en el momento y los coordinadores ven toda la red para decidir a tiempo.</p></div>' +
       '<ul class="facts"><li><span class="fi">' + ic('bed', 18) + '</span><b>Cupos al día</b><span>Quién llega, quién espera</span></li>' +
       '<li><span class="fi">' + ic('box', 18) + '</span><b>Recursos</b><span>Cuántos días alcanza</span></li>' +
       '<li><span class="fi">' + ic('alert', 18) + '</span><b>Alertas</b><span>Antes de que falte algo</span></li></ul>' +

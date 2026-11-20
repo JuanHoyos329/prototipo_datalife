@@ -27,7 +27,7 @@
       resumen: 'Ve toda la red de albergues, controla alertas y registra ingresos de recursos.' },
     { id: 'voluntario-piloto', nombre: 'Valentina Cárdenas', rol: 'voluntario', rolNombre: 'Voluntario', albergue: 1,
       resumen: 'Registra familias, cupos, necesidades y entregas en el Albergue Piloto 01.' },
-    { id: 'voluntario-coliseo', nombre: 'Carlos Andrés Ríos', rol: 'voluntario', rolNombre: 'Voluntario', albergue: 2,
+    { id: 'brigadista-coliseo', nombre: 'Carlos Andrés Ríos', rol: 'brigadista', rolNombre: 'Brigadista', albergue: 2,
       resumen: 'Registra familias, cupos, necesidades y entregas en el Coliseo El Pueblo.' },
     { id: 'voluntario-librada', nombre: 'Mariana Ospina', rol: 'voluntario', rolNombre: 'Voluntario', albergue: 3,
       resumen: 'Registra familias, cupos, necesidades y entregas en el Colegio Santa Librada.' }
